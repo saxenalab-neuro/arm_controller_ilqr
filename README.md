@@ -10,7 +10,9 @@ The intended workflow has two steps:
 2. The sequence for trained controllers should be as follows:
    
    i. ilqr_s.py; 
+   
    ii. ilqr_f.py; ilqr_f_h.py; ilqr_f_p.py; ilqr_f_v.py; 
+   
    iii. ilqr_m.py; ilqr_m_h.py; ilqr_m_p.py; ilqr_m_v.py;
    
 4. Run the analysis notebooks after the controller jobs finish.
