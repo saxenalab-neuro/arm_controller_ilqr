@@ -20,7 +20,7 @@ The intended workflow has two steps:
 ## Repository layout
 
 ```text
-arm_ilqr_consolidated/
+arm_controller_ilqr/
 ├── arm_ilqr/                 Shared model, experiment, runner, and solver code
 ├── analysis_notebooks/       Kinematics and subspace-analysis notebooks
 ├── ilqr_*.py                 Controller entry points
